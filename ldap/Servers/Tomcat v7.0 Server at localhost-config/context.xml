@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/dox" reloadable="true">
+
+    <!--  Names of specific property files -->
+    <Environment description="Name of the intended pc.properties file for this instance" name="pc_property_file" type="java.lang.String" value="pc.dvp2.properties"/>
+
+    <Environment description="Name of the intended encore.properties file for this instance" name="encore_property_file" type="java.lang.String" value="encore.dvp2.properties"/>
+
+    <Environment description="Name of the intended cdl.properties file for this instance" name="cdl_property_file" type="java.lang.String" value="cdl.dev9999.properties"/>
+
+    <Environment description="Name of the intended xis.properties file for this instance" name="xis_property_file" type="java.lang.String" value="xis.tst.properties"/>
+
+    <Environment description="Name of the intended bed.properties file for this instance" name="bed_property_file" type="java.lang.String" value="bed.test8280.properties"/>
+
+    <Parameter name="mysql.user" override="false" value="root"/>
+    <Parameter name="mysql.password" override="false" value="doxr00t"/>
+    <Parameter name="mysql.hostname" override="false" value="localhost"/>
+    <Parameter name="sas.shareserver" override="false" value="localhost"/>
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+</Context>

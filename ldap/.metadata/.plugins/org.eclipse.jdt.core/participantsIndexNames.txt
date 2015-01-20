@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+C:\workspaces\TEMP workspaces\ldap\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1302349562.index
+\ldap\src
+C:\workspaces\TEMP workspaces\ldap\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3877067095.index
+\ldap\src
